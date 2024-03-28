@@ -53,13 +53,13 @@ nav ul li a {
 }
 
 .hero h2 {
-    font-size: 40px;
+    font-size: 60px;
     margin-bottom: 40px; /* increased margin */
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .hero p{
-    margin-left: 20px;
+    margin-left: 40px;
 }  
 
 .btn {
@@ -70,6 +70,7 @@ nav ul li a {
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    margin-left: 40px;
 }
 
 .btn:hover {
