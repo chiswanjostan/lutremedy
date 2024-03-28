@@ -28,21 +28,6 @@ header h1 {
     margin-left: 20px;
 }
 
-nav ul {
-    list-style: none;
-    float: right;
-}
-
-nav ul li {
-    display: inline;
-    margin-left: 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
 .hero {
     padding: 200px 0; /* increased padding */
     background-color: #fff; /* changed to black */
