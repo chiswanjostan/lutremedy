@@ -45,8 +45,8 @@ nav ul li a {
 
 .hero {
     padding: 200px 0; /* increased padding */
-    background-color: #000; /* changed to black */
-    color: #fff;
+    background-color: #fff; /* changed to black */
+    color: #000;
     display: flex;
     align-items: flex-start; /* align items to the top */
     justify-content: space-between; /* space between the elements */
