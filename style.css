@@ -50,6 +50,7 @@ nav ul li a {
     display: flex;
     align-items: flex-start; /* align items to the top */
     justify-content: space-between; /* space between the elements */
+    margin-bottom: 40px; /* increased margin */
 }
 
 .hero h2 {
@@ -82,6 +83,7 @@ nav ul li a {
     flex-grow: 1;
     text-align: right;
     margin-right: 20px; /* added margin */
+    margin-bottom: 40px; /* increased margin */
 }
 
 .image-container img {
