@@ -46,8 +46,8 @@ nav ul li a {
 .hero {
     text-align: center;
     padding: 200px 0; /* increased padding */
-    background-color: #000; /* changed to black */
-    color: #fff;
+    background-color: #fff; /* changed to black */
+    color: #000;
 }
 
 .hero h2 {
@@ -56,8 +56,8 @@ nav ul li a {
 
 .btn {
     display: inline-block;
-    background-color: #fff; /* changed to white */
-    color: #000; /* changed to black */
+    background-color: #000; /* changed to white */
+    color: #fff; /* changed to black */
     padding: 15px 30px; /* increased padding */
     text-decoration: none;
     border-radius: 5px;
@@ -65,7 +65,7 @@ nav ul li a {
 }
 
 .btn:hover {
-    background-color: #eee; /* light gray on hover */
+    background-color: #fff; /* light gray on hover */
 }
 
 .features {
