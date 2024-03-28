@@ -88,8 +88,8 @@ nav ul li a {
 }
 
 footer {
-    background-color: #000; /* changed to black */
-    color: #fff;
+    background-color: #fff; /* changed to black */
+    color: #000;
     text-align: center;
     padding: 20px 0; /* increased padding */
 }
