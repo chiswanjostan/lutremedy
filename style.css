@@ -48,6 +48,8 @@ header h1 {
 }
 
 .hero p{
+    font-size: 24;
+    font-weight: 100;
     margin-left: 60px;
 }  
 
