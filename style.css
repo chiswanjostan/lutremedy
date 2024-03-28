@@ -85,6 +85,6 @@ footer {
     padding: 10px 0; /* increased padding */
 }
 
-footer>a{
-    color: #000;
+a {
+    text-color: #000;
 }
