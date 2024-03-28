@@ -89,3 +89,23 @@ a {
     color: #000;
     text-decoration: none;
 }
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 768px) {
+    .hero h2 {
+        font-size: 30px; /* Adjusted font size for smaller screens */
+        margin-left: 10px; /* Adjusted margin for smaller screens */
+    }
+
+    .hero p {
+        margin-left: 10px; /* Adjusted margin for smaller screens */
+    }
+
+    .btn {
+        margin-left: 10px; /* Adjusted margin for smaller screens */
+    }
+
+    .image-container {
+        display: none; /* Hide the image container on smaller screens */
+    }
+}
