@@ -29,6 +29,7 @@ header {
 
 header h1 {
     margin: 0;
+    font-family: halyard-display;
 }
 
 .hero {
@@ -48,7 +49,7 @@ header h1 {
 }
 
 .hero p{
-    font-size: 24;
+    font-size: 36;
     font-weight: 100;
     margin-left: 60px;
 }  
