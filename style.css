@@ -32,7 +32,7 @@ header h1 {
 }
 
 .hero {
-    padding: 50px 0; /* increased padding */
+    padding: 30px 0; /* increased padding */
     background-color: #fff; /* changed to black */
     color: #000;
     display: flex;
