@@ -12,6 +12,12 @@ body {
     color: #000; /* changed to black text */
 }
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
 header {
     background-color: #fff; /* changed to black */
     color: #000;
