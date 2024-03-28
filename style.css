@@ -84,3 +84,7 @@ footer {
     text-align: center;
     padding: 20px 0; /* increased padding */
 }
+
+footer>a{
+    color: #000;
+}
