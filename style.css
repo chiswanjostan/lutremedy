@@ -95,19 +95,17 @@ header h1 {
 }
 
 .blog-post {
+    width: calc(33.33% - 20px); /* Calculate width with spacing */
     margin-bottom: 40px; /* Increased margin */
     border-radius: 10px;
     overflow: hidden; /* Hide overflowing content */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
-    
 }
 
 .blog-post img {
-    width: 100%; /* Set image width to fill its container */
-    max-width: 100%; /* Limit maximum image width to prevent stretching */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Add rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0; /* Rounded corners for top of the image */
 }
 
 .blog-content {
