@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /admin/  # Disallow crawling of administrative pages
+Disallow: /private/  # Disallow crawling of private content
+Disallow: /temp/  # Disallow crawling of temporary content
+Disallow: /cgi-bin/  # Disallow crawling of CGI scripts
+Disallow: /images/  # Disallow crawling of images directory
+Disallow: /videos/  # Disallow crawling of videos directory
+
+# Sitemap location
+Sitemap: https://www.lutremedy.com/sitemap.xml
