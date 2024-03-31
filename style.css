@@ -80,13 +80,13 @@ header h1 {
 
 .blog {
     padding: 50px 0; /* increased padding */
-    background-color: #fff; /* changed to white */
-    color: #000;
+    background-color: #000; /* changed to white */
+    color: #fff;
 }
 
 .blog h2 {
     text-align: center; /* center align heading */
-    margin-bottom: 30px; /* increased margin */
+    margin-bottom: 40px; /* increased margin */
 }
 
 .blog-gallery {
