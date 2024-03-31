@@ -147,14 +147,9 @@ a {
     }
 
     .image-container {
-        flex-basis: 100%; /* Full width */
-        text-align: center; /* Center align for smaller screens */
+        display: none;
     }
 
-    .image-container img {
-        margin-right: auto; /* Align image to the center */
-        margin-left: auto;
-    }
 
     .blog-post {
         width: 100%; /* Full width for blog posts on smaller screens */
