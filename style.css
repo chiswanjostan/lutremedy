@@ -89,7 +89,6 @@ header h1 {
 .blog h2 {
     text-align: center; /* center align heading */
     margin-bottom: 40px; /* increased margin */
-    color: #fff;
 }
 
 .blog-gallery {
@@ -114,8 +113,6 @@ header h1 {
 
 .blog-content {
     padding: 20px;
-    background-color: #000;
-    color: #fff;
 }
 
 .blog-content h3 {
