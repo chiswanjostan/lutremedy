@@ -94,7 +94,6 @@ header h1 {
     display: flex; /* Display blogs side by side */
     flex-wrap: wrap; /* Allow items to wrap */
     justify-content: space-between; /* Add space between items */
-    background-color: #000;
 }
 
 .blog-post {
@@ -113,16 +112,16 @@ header h1 {
 
 .blog-content {
     padding: 20px;
+    background-color: #000;
+    color: #fff;
 }
 
 .blog-content h3 {
     margin-bottom: 10px; /* increased margin */
-    color: #fff;
 }
 
 .blog-content p {
     margin-bottom: 10px; /* increased margin */
-    color: #fff;
 }
 
 footer {
@@ -153,13 +152,7 @@ a {
     }
 
     .image-container {
-        flex-basis: 100%; /* Full width */
-        text-align: center; /* Center align for smaller screens */
-    }
-
-    .image-container img {
-        margin-right: auto; /* Align image to the center */
-        margin-left: auto;
+        display: none;
     }
 
     .blog-post {
