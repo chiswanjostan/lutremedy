@@ -92,6 +92,8 @@ header h1 {
     display: flex; /* Display blogs side by side */
     flex-wrap: wrap; /* Allow items to wrap */
     justify-content: space-between; /* Add space between items */
+    width: auto;
+    height: auto;
 }
 
 .blog-post {
@@ -99,8 +101,7 @@ header h1 {
     border-radius: 10px;
     overflow: hidden; /* Hide overflowing content */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
-    width: auto;
-    height: auto;
+    
 }
 
 .blog-post img {
