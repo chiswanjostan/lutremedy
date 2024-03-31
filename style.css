@@ -108,7 +108,7 @@ header h1 {
     overflow: hidden; /* Hide overflowing content */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
     height: auto;
-    width: 100%;
+    width: auto;
 }
 
 .blog-post img {
