@@ -73,16 +73,14 @@ header h1 {
 .image-container {
     flex-grow: 1;
     text-align: right;
-    margin-right: 20px;
-    margin-top: 40px;
-    max-width: 100%; /* Make sure image doesn't exceed container width */
-    overflow: hidden; /* Hide overflowing parts of the image */
+    margin-right: 20px; /* added margin */
+    margin-top: 40px; /* increased margin */
 }
 
 .image-container img {
-    width: 100%; /* Make image responsive */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px 25px 25px 5px;
+    max-width: 100%;
+    height: auto; /* Adjusted to maintain aspect ratio */
+    border-radius: 10px 25px 25px 5px; /* border radius only on the right side */
 }
 
 .blog {
@@ -161,10 +159,21 @@ a {
     }
 
     .image-container {
-        display: none; /* Hide the image container on smaller screens */
+        margin-right: 0; /* Remove right margin */
+        text-align: center; /* Center-align the image */
+    }
+
+    .image-container img {
+        max-width: 80%; /* Adjusted width */
+        height: auto; /* Adjusted to maintain aspect ratio */
+        margin-top: 20px; /* Add margin */
     }
 
     .blog-gallery {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjusted grid layout for smaller screens */
+        flex-direction: column; /* Stack blogs vertically on smaller screens */
+    }
+
+    .blog-post {
+        width: 100%; /* Full width for blog posts on smaller screens */
     }
 }
