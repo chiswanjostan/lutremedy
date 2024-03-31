@@ -22,36 +22,31 @@ header {
     background-color: #fff; /* changed to black */
     color: #000;
     padding: 8px 0; /* increased padding */
-    display: flex; /* Added */
-    justify-content: space-between; /* Added */
-    align-items: center; /* Added */
 }
 
 header h1 {
     margin: 0;
-    font-family: halyard-display;
 }
 
 .hero {
-    padding: 30px 0; /* increased padding */
+    padding: 50px 0; /* increased padding */
     background-color: #fff; /* changed to black */
     color: #000;
     display: flex;
-    align-items: flex-start; /* align items to the top */
+    align-items: center; /* center items vertically */
     justify-content: space-between; /* space between the elements */
     margin-top: 40px; /* increased margin */
+    flex-wrap: wrap; /* Added to allow items to wrap */
 }
 
 .hero h2 {
-    font-size: 80px;
-    margin-bottom: 40px; /* increased margin */
-    margin-left: 60px;
+    font-size: 40px; /* Changed font size for smaller screens */
+    margin-bottom: 20px; /* decreased margin for smaller screens */
+    margin-left: 20px; /* decreased margin for smaller screens */
 }
 
 .hero p{
-    font-size: 24px;
-    font-weight: 100;
-    margin-left: 60px;
+    margin-left: 20px; /* decreased margin for smaller screens */
 }  
 
 .btn {
@@ -62,7 +57,7 @@ header h1 {
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-    margin-left: 60px;
+    margin-left: 20px; /* decreased margin for smaller screens */
 }
 
 .btn:hover {
@@ -71,10 +66,8 @@ header h1 {
 }
 
 .image-container {
-    flex-grow: 1;
-    text-align: right;
-    margin-right: 20px; /* added margin */
-    margin-top: 40px; /* increased margin */
+    text-align: center; /* center-align the image */
+    margin-top: 20px; /* add margin to the top */
 }
 
 .image-container img {
@@ -159,21 +152,6 @@ a {
     }
 
     .image-container {
-        margin-right: 0; /* Remove right margin */
-        text-align: center; /* Center-align the image */
-    }
-
-    .image-container img {
-        max-width: 80%; /* Adjusted width */
-        height: auto; /* Adjusted to maintain aspect ratio */
-        margin-top: 20px; /* Add margin */
-    }
-
-    .blog-gallery {
-        flex-direction: column; /* Stack blogs vertically on smaller screens */
-    }
-
-    .blog-post {
-        width: 100%; /* Full width for blog posts on smaller screens */
+        flex-basis: 100%; /* Full width */
     }
 }
