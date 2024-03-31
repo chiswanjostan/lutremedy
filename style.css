@@ -66,8 +66,10 @@ header h1 {
 }
 
 .image-container {
-    text-align: center; /* center-align the image */
-    margin-top: 20px; /* add margin to the top */
+    text-align: right; /* align image to the right */
+    margin-top: 40px; /* increased margin */
+    margin-right: 20px; /* added margin */
+    flex-basis: 50%; /* half of the container width */
 }
 
 .image-container img {
@@ -148,6 +150,12 @@ a {
 
     .image-container {
         flex-basis: 100%; /* Full width */
+        text-align: center; /* Center align for smaller screens */
+    }
+
+    .image-container img {
+        margin-right: auto; /* Align image to the center */
+        margin-left: auto;
     }
 
     .blog-post {
