@@ -81,7 +81,7 @@ header h1 {
     height: 100%; /* Set image height to fill container */
     object-fit: cover; /* Cover the entire container */
     object-position: right; /* Position image to the right */
-    border-radius: 0 10px 10px 0; /* Rounded corners on the left side */
+    border-radius: 20px 10px 10px 20px; /* Rounded corners on the left side */
 }
 
 .blog {
