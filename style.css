@@ -21,7 +21,7 @@ header h1 {
     margin: 0;
 }
 
-.hero {
+body, .hero {
             position: relative; /* Relative positioning for absolute elements */
             padding: 50px 0; /* increased padding */
             background-color: #000; /* changed to black */
