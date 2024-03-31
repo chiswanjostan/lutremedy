@@ -13,8 +13,9 @@ body, html {
 
 header {
     background-color: #fff; /* changed to black */
-            color: #000;
-            padding: 8px 0; /* increased padding */
+    color: #000;
+    padding: 8px 0; /* increased padding */
+    margin: 0;
 }
 
 header h1 {
