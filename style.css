@@ -63,13 +63,6 @@ header h1 {
     color: #fff;
 }
 
-footer {
-    background-color: #fff; /* changed to black */
-    color: #000;
-    text-align: center;
-    padding: 8px 0; /* increased padding */
-}
-
 a {
     color: #000;
     text-decoration: none;
