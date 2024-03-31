@@ -82,19 +82,21 @@ header h1 {
 
 .blog {
     padding: 50px 0; /* increased padding */
-    background-color: #000; /* changed to white */
-    color: #fff;
+    background-color: #fff; /* changed to white */
+    color: #000;
 }
 
 .blog h2 {
     text-align: center; /* center align heading */
     margin-bottom: 40px; /* increased margin */
+    color: #fff;
 }
 
 .blog-gallery {
     display: flex; /* Display blogs side by side */
     flex-wrap: wrap; /* Allow items to wrap */
     justify-content: space-between; /* Add space between items */
+    background-color: #000;
 }
 
 .blog-post {
@@ -117,10 +119,12 @@ header h1 {
 
 .blog-content h3 {
     margin-bottom: 10px; /* increased margin */
+    color: #fff;
 }
 
 .blog-content p {
     margin-bottom: 10px; /* increased margin */
+    color: #fff;
 }
 
 footer {
