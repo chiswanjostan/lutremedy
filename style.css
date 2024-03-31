@@ -67,8 +67,8 @@ header h1 {
 
 .image-container {
     align-items: center; /* center-align the image */
-    margin-top: 80px; /* increased margin */
-    margin-right: 70px; /* added margin */
+    margin-bottom: 80px; /* increased margin */
+    margin-left: 70px; /* added margin */
     max-width: 100%; /* adjust width as needed */
 }
 
