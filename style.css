@@ -97,22 +97,31 @@ header h1 {
     margin-bottom: 30px; /* increased margin */
 }
 
+.blog-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Dynamic grid layout */
+    gap: 20px; /* Gap between grid items */
+}
+
 .blog-post {
-    display: flex;
-    flex-wrap: wrap; /* allow items to wrap */
-    justify-content: space-between; /* space between items */
-    margin-bottom: 30px; /* increased margin */
+    border-radius: 10px;
+    overflow: hidden; /* Hide overflowing content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    transition: transform 0.3s ease;
+}
+
+.blog-post:hover {
+    transform: translateY(-5px); /* Move post up on hover */
 }
 
 .blog-post img {
-    max-width: 100%; /* ensure image fits container */
-    height: auto; /* maintain aspect ratio */
-    border-radius: 5px; /* add border radius */
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0; /* Rounded corners for top of the image */
 }
 
 .blog-content {
-    flex-grow: 1;
-    margin-left: 20px; /* add margin between image and content */
+    padding: 20px;
 }
 
 .blog-content h3 {
@@ -154,15 +163,7 @@ a {
         display: none; /* Hide the image container on smaller screens */
     }
 
-    .blog-post {
-        flex-direction: column; /* stack items vertically */
-    }
-
-    .blog-post img {
-        margin-bottom: 10px; /* add margin below the image */
-    }
-
-    .blog-content {
-        margin-left: 0; /* remove margin */
+    .blog-gallery {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjusted grid layout for smaller screens */
     }
 }
