@@ -73,14 +73,16 @@ header h1 {
 .image-container {
     flex-grow: 1;
     text-align: right;
-    margin-right: 20px; /* added margin */
-    margin-top: 40px; /* increased margin */
+    margin-right: 20px;
+    margin-top: 40px;
+    max-width: 100%; /* Make sure image doesn't exceed container width */
+    overflow: hidden; /* Hide overflowing parts of the image */
 }
 
 .image-container img {
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 10px 25px 25px 5px; /* border radius only on the right side */
+    width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px 25px 25px 5px;
 }
 
 
