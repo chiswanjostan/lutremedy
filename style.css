@@ -7,15 +7,14 @@ body, html {
 .container {
             width: 80%;
             margin: 0 auto;
-            padding: 20px 0;
             position: relative; /* Relative positioning for child elements */
-            z-index: 1; /* Ensure content appears above background video */
+            z-index: 1; /* Ensure content appears above background image */
 }
 
 header {
     background-color: #fff; /* changed to black */
-    color: #000;
-    padding: 8px 0; /* increased padding */
+            color: #000;
+            padding: 8px 0; /* increased padding */
 }
 
 header h1 {
@@ -27,54 +26,41 @@ header h1 {
             padding: 50px 0; /* increased padding */
             background-color: #000; /* changed to black */
             color: #fff;
+            background-image: url('image/background.webp'); /* Set background image */
+            background-size: cover; /* Cover the entire container */
+            background-position: center; /* Center the background image */
+            height: 100vh; /* Set hero section height to viewport height */
+            display: flex; /* Use flexbox to center content vertically */
+            align-items: center; /* Center content vertically */
 }
 
- .hero-content {
+.hero-content {
             position: relative; /* Relative positioning for absolute elements */
-            z-index: 1; /* Ensure content appears above background video */
 }
 
 
 .hero h2 {
             font-size: 40px; /* Changed font size for smaller screens */
             margin-bottom: 20px; /* decreased margin for smaller screens */
-            margin-left: 20px; /* decreased margin for smaller screens */
 }
 
 .hero p{
-    margin-left: 20px; /* decreased margin for smaller screens */
+    margin-bottom: 20px; /* decreased margin for smaller screens */
 }  
 
 .btn {
     display: inline-block;
-    background-color: #000; /* changed to white */
-    color: #fff; /* changed to black */
+    background-color: #fff; /* changed to white */
+    color: #000; /* changed to black */
     padding: 15px 30px; /* increased padding */
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-    margin-left: 20px; /* decreased margin for smaller screens */
 }
 
 .btn:hover {
     background-color: #000;
-    color: #ccc;
-}
-
-.video-container {
-            position: absolute; /* Absolute positioning for video container */
-            top: 0; /* Position at the top */
-            left: 0; /* Position at the left */
-            width: 100%; /* Width of video container */
-            height: 100%; /* Height of video container */
-            overflow: hidden; /* Hide overflowing content */
-            z-index: -1; /* Move video behind other content */
-}
-
-.video-container video {
-            width: 100%; /* Set video width to fill container */
-            height: 100%; /* Set video height to fill container */
-            object-fit: cover; /* Cover the entire container */
+    color: #fff;
 }
 
 .blog {
@@ -134,15 +120,14 @@ a {
 @media only screen and (max-width: 768px) {
     .hero h2 {
         font-size: 30px; /* Adjusted font size for smaller screens */
-        margin-left: 10px; /* Adjusted margin for smaller screens */
     }
 
     .hero p {
-        margin-left: 10px; /* Adjusted margin for smaller screens */
+        margin-bottom: 10px; /* Adjusted margin for smaller screens */
     }
 
     .btn {
-        margin-left: 10px; /* Adjusted margin for smaller screens */
+        margin-bottom: 10px; /* Adjusted margin for smaller screens */
     }
 
     .blog-post {
