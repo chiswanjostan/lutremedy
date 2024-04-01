@@ -109,3 +109,23 @@ nav a:hover {
 .btn:hover {
     background-color: #006A4E; /* Darker green on hover */
 }
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 10px 0; /* Decreased padding for smaller screens */
+    }
+
+    header .container {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    nav {
+        margin-top: 20px;
+    }
+
+    nav a {
+        margin: 10px 0;
+    }
+}
