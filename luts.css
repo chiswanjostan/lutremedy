@@ -92,7 +92,7 @@ nav a:hover {
 
 .btn {
     padding: 10px 20px;
-    background-color: #007bff; /* Blue button color */
+    background-color: #000; /* Blue button color */
     color: #fff; /* White text color */
     border: none;
     border-radius: 5px;
