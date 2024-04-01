@@ -39,6 +39,10 @@ header nav a {
      margin-left: 20px;
 }
 
+header nav a:hover {
+    color: #006A4E;
+}
+
 .hero {
             position: relative; /* Relative positioning for absolute elements */
             padding: 50px 0; /* increased padding */
