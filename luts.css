@@ -107,7 +107,7 @@ nav a:hover {
 }
 
 .btn:hover {
-    background-color: #006A4E; /* Darker green on hover */
+    background-color: #000; /* Darker green on hover */
 }
 
 /* Media Query for smaller screens */
