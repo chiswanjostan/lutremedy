@@ -7,4 +7,4 @@ Disallow: /images/  # Disallow crawling of images directory
 Disallow: /videos/  # Disallow crawling of videos directory
 
 # Sitemap location
-Sitemap: https://www.lutremedy.com/sitemap.xml
+Sitemap: https://lutremedy.com/sitemap.xml
