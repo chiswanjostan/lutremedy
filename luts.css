@@ -128,4 +128,31 @@ nav a:hover {
     nav a {
         margin: 10px 0;
     }
+
+    .product-details {
+        flex-direction: column; /* Stack elements vertically */
+        text-align: center; /* Center align text */
+    }
+
+    .product-image {
+        margin-bottom: 20px; /* Add margin below image */
+    }
+    
+    .product-info {
+        text-align: center; /* Center align text */
+    }
+
+    .product-info h2 {
+        font-size: 24px; /* Adjusted font size for smaller screens */
+        margin-bottom: 10px; /* Add margin below heading */
+    }
+
+    .price {
+        font-size: 18px; /* Adjusted font size for smaller screens */
+        margin-bottom: 10px; /* Add margin below price */
+    }
+
+    .description {
+        margin-bottom: 20px; /* Add margin below description */
+    }
 }
