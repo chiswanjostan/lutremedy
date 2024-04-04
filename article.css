@@ -1,0 +1,38 @@
+    body {
+      font-family: 'Merriweather', serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f6f6f6;
+      color: #333;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+    }
+    p {
+      margin-bottom: 15px;
+    }
+    .highlight {
+      font-weight: 700;
+    }
+    .cta {
+      background-color: #00ab6b;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    .cta:hover {
+      background-color: #007d48;
+    }
