@@ -26,13 +26,14 @@
       font-weight: 700;
     }
     .cta {
-      background-color: #00ab6b;
-      color: #fff;
-      padding: 10px 20px;
-      border-radius: 5px;
-      text-decoration: none;
-      transition: background-color 0.3s;
+    display: inline-block;
+    background-color: #fff; /* changed to white */
+    color: #000; /* changed to black */
+    padding: 15px 30px; /* increased padding */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
     }
     .cta:hover {
-      background-color: #007d48;
+      background-color: #000;
     }
