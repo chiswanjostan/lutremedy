@@ -27,8 +27,8 @@
     }
     .cta {
     display: inline-block;
-    background-color: #fff; /* changed to white */
-    color: #000; /* changed to black */
+    background-color: #000; /* changed to white */
+    color: #fff; /* changed to black */
     padding: 15px 30px; /* increased padding */
     text-decoration: none;
     border-radius: 5px;
