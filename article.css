@@ -1,31 +1,37 @@
-    body {
+body {
       font-family: 'Merriweather', serif;
       line-height: 1.6;
       margin: 0;
       padding: 0;
       background-color: #f6f6f6;
       color: #333;
-    }
-    .container {
+}
+
+.container {
       max-width: 800px;
       margin: 0 auto;
       padding: 20px;
-    }
-    h1 {
+}
+
+h1 {
       font-size: 2.5rem;
       margin-bottom: 20px;
-    }
-    h2 {
+}
+
+h2 {
       font-size: 1.8rem;
       margin-bottom: 15px;
-    }
-    p {
+}
+
+p {
       margin-bottom: 15px;
-    }
-    .highlight {
+}
+
+.highlight {
       font-weight: 700;
-    }
-    .cta {
+}
+
+.cta {
     display: inline-block;
     background-color: #000; /* changed to white */
     color: #fff; /* changed to black */
@@ -33,7 +39,14 @@
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-    }
-    .cta:hover {
+}
+
+.cta:hover {
       background-color: #000;
-    }
+}
+
+.featured-image {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+}
