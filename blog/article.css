@@ -8,9 +8,10 @@ body {
 }
 
 .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
+            width: 80%;
+            margin: 0 auto;
+            position: relative; /* Relative positioning for child elements */
+            z-index: 1; /* Ensure content appears above background image */
 }
 
 header {
