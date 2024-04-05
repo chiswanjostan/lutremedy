@@ -107,7 +107,7 @@ header{
     border: none;
 }
 .search-input::placeholder{
-    text-transform: capitalize;
+    text-transform: none;
 }
 .search-btn{
     width: 40px;
