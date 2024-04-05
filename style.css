@@ -52,8 +52,8 @@ header{
     text-align: center;
 }
 .navbar-nav a{
-    text-transform: uppercase;
-    font-family: var(--Roboto);
+    text-transform: lowercase;
+    font-family: var(--Playfair);
     letter-spacing: 1px;
     font-weight: 500;
     color: #fff;
